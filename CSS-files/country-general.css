@@ -1,0 +1,77 @@
+body {
+  font-family: Courgette, Arial;
+  background-image: url(/Images/website-backgrounds/background-1.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+.logo {
+  font-size: 50px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.moto {
+  margin: 0px 0px 100px 30px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.country-name {
+  text-align: center;
+  margin-bottom: -20px;
+  font-size: 40px;
+  font-weight: 400;
+}
+.containers {
+  display: flex;
+  justify-content: space-around;
+  margin: 100px 0px 0px 0px;
+}
+
+.food-sections {
+  width: 170px;
+  height: 40px;
+  margin: 0px 20px 0px 20px;
+  transition: width, 0.25s;
+  font-family: Courgette, Arial;
+  font-size: 20px;
+  background: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.food-sections:hover {
+  width: 190px;
+  margin: 0px 10px 0px 10px;
+  transition: width, 0.25s;
+  background: white;
+}
+.home {
+  margin-top: 100px;
+  text-align: center;
+}
+.home button {
+  width: 170px;
+  height: 40px;
+  margin: 0px 20px 0px 20px;
+  transition: width, 0.25s;
+  font-family: Courgette, Arial;
+  font-size: 20px;
+  background: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.home button:hover {
+  width: 190px;
+  margin: 0px 10px 0px 10px;
+  transition: width, 0.25s;
+  background: white;
+}
+a:link {
+  text-decoration: none;
+}
+a {
+  color: black;
+}

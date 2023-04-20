@@ -1,0 +1,74 @@
+body {
+  font-family: Courgette, Arial;
+  background-image: url(/Images/website-backgrounds/background-1.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+.logo {
+  font-size: 50px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.moto {
+  margin: 0px 0px 90px 30px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.item-description {
+  background: linear-gradient(rgb(102, 101, 101), rgb(223, 213, 213));
+  padding: 30px;
+  text-align: center;
+  margin-bottom: 150px;
+  border-radius: 15px;
+  color: black;
+}
+.item-image {
+  width: 600px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.div-about-section {
+  position: relative;
+}
+.about-section {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 10px;
+
+}
+.about{
+  cursor: pointer;
+}
+button {
+  width: 120px;
+  height: 40px;
+  margin: 50px 20px 0px 20px;
+  border: none;
+  background: white;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 0px 3px rgb(99, 98, 98);
+  transition: width, 0.25s;
+    font-family: Courgette, Arial;
+}
+button:hover {
+  width: 140px;
+  margin-left: 10px;
+  margin-right: 10px;
+  transition: width, 0.25s;
+}
+a:link {
+  text-decoration: none;
+}
+a {
+  color: black;
+}
